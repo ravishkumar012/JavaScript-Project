@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .listening {
+            background-color: #4caf50 !important; 
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Voice Controlled TODO List</h1>
+        
+        <ul id="taskList"></ul>
+        <button id="startBtn">🎤Start Listening</button>
+        <p class="info">
+            (Example) Say: <br>"New Task buy milk" <br>
+            "Delete Task 2" <br>
+            "Select Task 1 " <br>
+        </p>
+        <div id="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
